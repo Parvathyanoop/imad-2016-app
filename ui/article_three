@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Article_THREE|Parvathy Komalan S
+        </title>
+    </head>
+    <body>
+    <div>
+        <a href="/">
+           Back 
+        </a>
+    </div>
+    <hr/>
+    <h4>
+        ArticleTHREE
+    </h4>
+    <div>
+       10/10/2016 
+    </div>
+    <div>
+        <p>
+            This is article three.
+        </p>
+        <p>
+            This is article three.
+        </p>
+        <p>
+            This is article three.
+        </p>
+        <p>
+            This is article three.
+        </p>        
+    </div>
+     </body> 
+</html>
