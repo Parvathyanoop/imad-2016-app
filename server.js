@@ -26,13 +26,25 @@ var article_one={
     
     
 };
+var article_two={
+    title:'Article_TWO|Parvathy Komalan S',
+    heading:'Article_TWO',
+    date:'2/10/2016',
+    content :`
+    <p>
+            This is article one.
+    </p>
+    '
+    
+    
+};
 
 function createtemplate (data){
     title=data.title;
     heading=data.heading;
     date=data.date;
     content=data.content;
-var htmltemplate =`
+var htmltemplate = {'
 <html>
     <head>
         <title>
@@ -60,7 +72,7 @@ var htmltemplate =`
     </div>
    </body> 
 </html>
-`;
+`};
 return htmltemplate;
 }
 app.get('/', function (req, res) {
@@ -70,7 +82,7 @@ app.get('/article_one', function (req, res) {
   res.send(createtemplate(article_one));
 });
 app.get('/article_two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article_two.html'));
+  res.send(createtemplate(article_two));
 });
 app.get('/article_three', function (req, res) {
  res.sendFile(path.join(__dirname, 'ui', 'article_three.html'));
