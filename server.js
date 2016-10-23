@@ -11,7 +11,7 @@ var article_one={
     date:'10/10/2016',
     content :`
     <p>
-            This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This \ article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.
+            This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This \ article one.This is article one.This is article one.This is article one.This  is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.This is article one.
             </p>
         
             <p>
